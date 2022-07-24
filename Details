@@ -1,0 +1,38 @@
+Reacap:
+
+  Promise.all()
+    Combines multiple promise into a single promise objs
+    Accessing values:
+      Promise.all([...promiseobjs]).then([...resolvements-of-promises]).catch();
+  
+  API ---> Application Programming Interface -> Service to Comunicated between Applications, 
+  REST API ---> Representational State Transfer
+  response ---> entity which cotains the info of the response server and JSON need to commnication
+
+  fetch -> is an interface the lets to commnicate across http and get the response data from servers
+    accessing response .then()
+    error .catch()
+  
+  async & await
+    async & await --> which makes fews async operations synchronous inside an aysnc block
+                      await helps in doing so
+    return type: promise which contains the return obj
+
+Topics:
+  
+  Publics APIs
+  Look for You requirement & Choose a type of API
+  Use APIs which has HTTPS & CORS --> Cross Origin Resources Sharing enabled
+  If Signing is fine Go for Auth, HTTPS, CORS enabled
+  CORS -> Cross Origin Resource Sharing
+
+  Mock APIs --> A Mocked Server/Backend setup which support the Client to perform CRUD operations from UI
+  CRUD Operations on Resources
+  Read ( GET ) all, particular ---> Read all/specific entity
+  Create ( POST ) --> Create a new entity
+  Update ( PUT ) --> Update a particular entity
+  Delete ( DELETE ) --> Update a particular entity
+
+
+Request -> Server 
+{ name: 'Sanjay' } ---> "{ "name": "Sanjay" }"
